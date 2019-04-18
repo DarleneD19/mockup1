@@ -12,6 +12,7 @@ a:hover{
 }
 
 .links{
+    background-image: url("assets/img/topP.png");
     text-align: right;
     padding-right: 70px;
     padding-bottom: 20px;
@@ -135,12 +136,12 @@ a:hover{
     width: 40%;
     height: auto;
     float: right;
-    margin-left: 60p;
+    margin-left: 0p;
 }
 .col2{
     width: 50%;
     height: 50%;
-    float: right
+    float: right;
 }
 .contactme{
     font-family: britannic bold;
@@ -166,17 +167,16 @@ a:hover{
     color: #ff0026
 
 }
-}
 
 .mess{
     font-family: britannic bold;
-    font-size: 30px;
     color: #ff0026;
+    font-size: 30px;
 }
 
 .map{
     float: right;
-    margin-top: 60px
+    margin-top: 55 px
 
 }
 
