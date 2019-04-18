@@ -1,0 +1,148 @@
+
+a {
+    font-size:30px;
+    color: 000;  
+}
+
+.toppage{
+    background: #ff0026;
+    color: #fff;
+    width: 50%;
+    height: 200px;
+    border-radius: 35px;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-top: 15%;
+    min-width: 850px;
+    max-width: 1200px
+}
+
+.toppage .name{
+    font-family: britannic bold;
+    padding-top: 20;
+    text-align: center;
+    font-size: 75px;
+}
+.toppage .web{
+    font-family: arial;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.about{
+    background: rgba(0, 102, 255, 0.5);
+    color: #5eff59;
+    border-radius: 35px;
+    
+}
+
+.am{
+    padding-right: 30px;
+    padding-top: 10px;
+    font-family: britannic bold;
+    font-size: 70px;
+    text-align: right
+}
+
+.me{
+    font-family: arial;
+    font-size: 30px;
+    color: #ff6b00;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.mission{
+    background: rgba(94, 255, 89, 0.75);
+    color: #ff6b00;
+    border-radius: 35px;
+}
+
+.mi{
+    font-family: britannic bold;
+    font-size: 70px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.on{
+    color: #06f;
+    font-family: arial;
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.portfolio{
+    background: rgba(255, 255, 0, 0.75);
+    height: 700px;
+    padding-top: 5px;
+    min-height: 1200px;
+    max-height: 1500px;
+}
+
+.port{
+    font-family:  britannic bold;
+    font-size: 80px;
+    color: #ff0026;
+    text-align: center;
+    margin-top:10px
+}
+
+.container{
+    max-width: 100%;
+    max-height: 1000px;
+}
+
+.col1{
+    width: 50%;
+    height: 75%;
+    float: right
+}
+.col2{
+    width: 50%;
+    height: 50%;
+}
+.contactme{
+    font-family: britannic bold;
+    color: #06f;
+    font-size: 40px;
+    max-width: 50%;
+}
+
+.fn{
+    font-family: britannic bold;
+    font-size: 30px;
+    max-width: 50%
+}
+
+.urname{
+    margin-bottom: 5px;
+    max-width: 50%;
+}
+
+.email{
+    font-family: britannic bold;
+    font-size: 30px;
+    max-width:  50%;
+}
+
+.phone{
+    font-family: britannic bold;
+    font-size: 30px;
+    max-width: 50%;
+}
+
+.mess{
+    font-family: britannic bold;
+    font-size: 30px;
+    max-width: 50%;
+}
+
+.map{
+/*    float: right;*/
+}
