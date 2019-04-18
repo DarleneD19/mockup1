@@ -1,8 +1,8 @@
 
 a{
-    color: #5eff59;
+    color: #fff;
     font-family: arial;
-    font-size:10px;
+    font-size:30px;
    text-decoration: none;
 
 }
@@ -13,25 +13,20 @@ a:hover{
 
 .links{
     text-align: right;
-    font-family: arial;
-    font-size: 60px;
-    background-color: rgba(0, 102, 255, .8);
     padding-right: 70px;
     padding-bottom: 20px;
-    font-weight: bold;
+    background-color: rgba(0, 102, 255, .9)
 }
 
 .toppage{
     background: #ff0026;
     color: #fff;
-    width: 50%;
+    width: 450px;
     height: 150px;
     border-radius: 35px;
     margin-bottom: 5%;
     margin-left: 3%;
-    margin-top: 20%;
-    min-width: 850px;
-    max-width: 1200px
+    margin-top: 200px;
 }
 
 .toppage .name{
@@ -55,7 +50,7 @@ a:hover{
     min-width: 500px;
     max-width: 50%;
     margin-left: auto;
-    margin-right: 10%;
+    margin-right: 30px;
     margin-bottom: 200px
 }
 
@@ -63,16 +58,17 @@ a:hover{
     padding-right: 30px;
     padding-top: 10px;
     font-family: britannic bold;
-    font-size: 70px;
+    font-size: 50px;
     text-align: right
 }
 
 .me{
     font-family: arial;
-    font-size: 30px;
+    font-size: 20px;
     color: #ff6b00;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 20px;
     text-align: justify;
 }
 
@@ -83,14 +79,14 @@ a:hover{
     min-width: 500px;
     max-width: 50%;
     margin-right: auto;
-    margin-left: 10%;
-    margin-bottom: 400
+    margin-left: 30px;
+    margin-bottom: 200px;
 
 }
 
 .mi{
     font-family: britannic bold;
-    font-size: 70px;
+    font-size: 50px;
     padding-left: 20px;
     padding-top: 10px;
 }
@@ -98,7 +94,7 @@ a:hover{
 .on{
     color: #06f;
     font-family: arial;
-    font-size: 30px;
+    font-size: 20px;
     text-align: justify;
     padding-left: 30px;
     padding-right: 30px;
@@ -107,7 +103,7 @@ a:hover{
 
 .portfolio{
     background: rgba(255, 255, 0, 0.75);
-    height: 700px;
+    height: 500px;
     padding-top: 5px;
     min-height: 100%;
     max-height: 100%;
@@ -115,12 +111,21 @@ a:hover{
 
 .port{
     font-family:  britannic bold;
-    font-size: 80px;
+    font-size: 60px;
     color: #ff0026;
     text-align: center;
-    margin-top:10px
+    margin-top:30px;
+    text-decoration: underline
 }
 
+.contact{
+    background-color: #06f;
+    width: 200px;
+    text-align: center;
+    border-radius: 50px;
+    /*center this button*/
+}
+/*CONTACT PAGE*/
 .container{
     max-height: 1000px;
 
@@ -135,17 +140,18 @@ a:hover{
 .col2{
     width: 50%;
     height: 50%;
+    float: right
 }
 .contactme{
     font-family: britannic bold;
     color: #06f;
-    font-size: 40px;
+    font-size: 30px;
 
 }
 
 .fn{
     font-family: britannic bold;
-    font-size: 40px;
+    font-size: 30px;
     color: #ff0026
 }
 
@@ -156,22 +162,16 @@ a:hover{
 
 .email{
     font-family: britannic bold;
-    font-size: 40px;
+    font-size: 30px;
     color: #ff0026
 
 }
-
-.phone{
-    font-family: britannic bold;
-    font-size: 40px;
-    color: #ff0026
-
 }
 
 .mess{
     font-family: britannic bold;
-    font-size: 40px;
-    color: #ff0026
+    font-size: 30px;
+    color: #ff0026;
 }
 
 .map{
@@ -192,16 +192,16 @@ a:hover{
 
 input[type=text] {
     padding: 10px;
-    width: 500px
+    width: 300px
 }
 
 input[type=email] {
     padding: 10px;
-    width: 500px
+    width: 300px
 }
 
 textarea {
-    width: 500px;
-    padding: 70px
+    width: 300px;
+    padding: 40px
 }
 
