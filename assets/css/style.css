@@ -1,32 +1,49 @@
 
-a {
-    font-size:30px;
-    color: 000;  
+a{
+    color: #5eff59;
+    font-family: arial;
+    font-size:10px;
+   text-decoration: none;
+
+}
+
+a:hover{
+    color: #ff6b08
+}
+
+.links{
+    text-align: right;
+    font-family: arial;
+    font-size: 60px;
+    background-color: rgba(0, 102, 255, .8);
+    padding-right: 70px;
+    padding-bottom: 20px;
+    font-weight: bold;
 }
 
 .toppage{
     background: #ff0026;
     color: #fff;
     width: 50%;
-    height: 200px;
+    height: 150px;
     border-radius: 35px;
     margin-bottom: 5%;
     margin-left: 3%;
-    margin-top: 15%;
+    margin-top: 20%;
     min-width: 850px;
     max-width: 1200px
 }
 
 .toppage .name{
     font-family: britannic bold;
-    padding-top: 20;
+    padding-top: 10px;
     text-align: center;
-    font-size: 75px;
+    font-size: 50px;
 }
 .toppage .web{
     font-family: arial;
     font-style: italic;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 100;
     text-align: center;
 }
@@ -35,7 +52,11 @@ a {
     background: rgba(0, 102, 255, 0.5);
     color: #5eff59;
     border-radius: 35px;
-    
+    min-width: 500px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: 10%;
+    margin-bottom: 200px
 }
 
 .am{
@@ -59,6 +80,12 @@ a {
     background: rgba(94, 255, 89, 0.75);
     color: #ff6b00;
     border-radius: 35px;
+    min-width: 500px;
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: 10%;
+    margin-bottom: 400
+
 }
 
 .mi{
@@ -75,14 +102,15 @@ a {
     text-align: justify;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 20px
 }
 
 .portfolio{
     background: rgba(255, 255, 0, 0.75);
     height: 700px;
     padding-top: 5px;
-    min-height: 1200px;
-    max-height: 1500px;
+    min-height: 100%;
+    max-height: 100%;
 }
 
 .port{
@@ -94,14 +122,15 @@ a {
 }
 
 .container{
-    max-width: 100%;
     max-height: 1000px;
+
 }
 
 .col1{
-    width: 50%;
-    height: 75%;
-    float: right
+    width: 40%;
+    height: auto;
+    float: right;
+    margin-left: 60p;
 }
 .col2{
     width: 50%;
@@ -111,38 +140,68 @@ a {
     font-family: britannic bold;
     color: #06f;
     font-size: 40px;
-    max-width: 50%;
+
 }
 
 .fn{
     font-family: britannic bold;
-    font-size: 30px;
-    max-width: 50%
+    font-size: 40px;
+    color: #ff0026
 }
 
 .urname{
     margin-bottom: 5px;
-    max-width: 50%;
+
 }
 
 .email{
     font-family: britannic bold;
-    font-size: 30px;
-    max-width:  50%;
+    font-size: 40px;
+    color: #ff0026
+
 }
 
 .phone{
     font-family: britannic bold;
-    font-size: 30px;
-    max-width: 50%;
+    font-size: 40px;
+    color: #ff0026
+
 }
 
 .mess{
     font-family: britannic bold;
-    font-size: 30px;
-    max-width: 50%;
+    font-size: 40px;
+    color: #ff0026
 }
 
 .map{
-/*    float: right;*/
+    float: right;
+    margin-top: 60px
+
 }
+
+.moli{
+    text-align: right;
+    font-family: arial;
+    font-size: 60px;
+    background-color: rgba(255, 255, 0, .8);
+    padding-right: 70px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+input[type=text] {
+    padding: 10px;
+    width: 500px
+}
+
+input[type=email] {
+    padding: 10px;
+    width: 500px
+}
+
+textarea {
+    width: 500px;
+    padding: 70px
+}
+
