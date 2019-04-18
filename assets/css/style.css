@@ -4,7 +4,6 @@ a{
     font-family: arial;
     font-size:30px;
    text-decoration: none;
-
 }
 
 a:hover{
@@ -16,7 +15,8 @@ a:hover{
     text-align: right;
     padding-right: 70px;
     padding-bottom: 20px;
-    background-color: rgba(0, 102, 255, .9)
+    background-color: rgba(0, 102, 255, .9);
+    word-spacing: 35px
 }
 
 .toppage{
@@ -103,11 +103,13 @@ a:hover{
 }
 
 .portfolio{
-    background: rgba(255, 255, 0, 0.75);
-    height: 500px;
+    background: rgba(255, 255, 0, .7);
+    height: 600px;
     padding-top: 5px;
-    min-height: 100%;
-    max-height: 100%;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 30px;
+    min-width: 600px;
 }
 
 .port{
@@ -116,7 +118,14 @@ a:hover{
     color: #ff0026;
     text-align: center;
     margin-top:30px;
-    text-decoration: underline
+    text-decoration: underline;
+}
+
+.ppic img{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .contact{
